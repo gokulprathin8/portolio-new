@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src="https://lh3.googleusercontent.com/a/ACg8ocLYVP4kDY0enwPtym3x_ILNm9M8sN9mGpl99vIhG-S6RBHpKaM8=s576-c-no"
-              alt="Ricardo portrait"
+              alt="Gokuls portrait"
               width="192"
               height="192"
               quality="95"
