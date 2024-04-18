@@ -2,9 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import geoweaverImg from "@/public/geoweaver.png";
 
 export const links = [
   {
@@ -35,64 +33,62 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Undergrad: GITAM University",
+    location: "Hyderabad, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "During my undergrad at GITAM, I got to learn about networking, linux, system design, building websites and was also able to publish 2 research papers by the end of my grad.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2017 - 2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineer",
+    location: "Hyderabad, India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Worked as a full stack web developer using React, Express and Node.js to build a Ecommerce application at Divergent Consulting Services (heybandi.com)",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2018 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Heymavin (fka Userfocus)",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Worked as a Full-stack Developer — Django, Flask, AWS, Elastic Search, Postgres, Heroku & React. Worked on Zoom integratio into the existing codebase and completely built a end to end pipeline to record and analyse calls that occur outside zoom such as MS Teams & Google Meet and automated the recording process with Selenium, FFmpeg & Chrome headless",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
+  {
+    title: "Grad: George Mason University",
+    location: "Fairfax, VA",
+    description: "During Masters in Computer science, I became proficient with Golang, switched to Neovim, TMUX is my new home. I kept an eye out for new LLMs and learnt whatever I could about Machine Learning and LLMs. I was able to publish 5 research papers to international journals during my masters",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 - 2024"
+  },
+  {
+    title: "Research Assistant",
+    location: "George Mason University, Fairfax",
+    description: "Worked as a Research assistant under Prof. Ziheng Sun (https://zihengsun.github.io/), primarly worked on Geoweaver project. Responsible for maintaining the existing codebase and implementing new features for workflow management. Another intresting side project I worked on was 'Snow Water Equivalent' workflow for predicting water in snow for entire Western US using SRTM DEM and Gridmet.",
+    icon: React.createElement(FaReact),
+    date: "2023 - Present"
+  }
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Geoweaver",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A web system to allow users to automatically record history and manage complicated scientific workflows in web browsers",
+    tags: ["Java", "Spring", "PostgreSQL", "H2", "Tailwind"],
+    imageUrl: geoweaverImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "Python",
-  "Go (Golang)",
   "Django",
   "FastAPI",
   "JavaScript",
   "TypeScript",
+  "Go (Golang)",
   "Java",
   "Spring",
   "React",
@@ -104,4 +100,6 @@ export const skillsData = [
   "GraphQL",
   "PostgreSQL",
   "Cypress",
+  "HTML",
+  "CSS",
 ] as const;
