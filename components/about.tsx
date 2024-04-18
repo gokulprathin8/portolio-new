@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        WIP
+        Hello! I’m Gokul, a full-stack developer, currently pursuing my Master’s degree at George Mason University, Fairfax Campus, VA, with a tech background in software engineering. I am enthusiastic about developing scalable software solutions and exploring the latest in technology trends. 🚀
       </p>
     </motion.section>
   );
