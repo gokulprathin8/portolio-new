@@ -54,7 +54,7 @@ export const experiencesData = [
     description:
       "Worked as a Full-stack Developer — Django, Flask, AWS, Elastic Search, Postgres, Heroku & React. Worked on Zoom integratio into the existing codebase and completely built a end to end pipeline to record and analyse calls that occur outside zoom such as MS Teams & Google Meet and automated the recording process with Selenium, FFmpeg & Chrome headless",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2021 - 2022",
   },
   {
     title: "Grad: George Mason University",
