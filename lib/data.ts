@@ -81,18 +81,21 @@ export const projectsData = [
     "A web system to allow users to automatically record history and manage complicated scientific workflows in web browsers",
     tags: ["Java", "Spring", "PostgreSQL", "H2", "Tailwind"],
     imageUrl: geoweaverImg,
+    refUrl: "http://github.com/ESIPFed/Geoweaver",
   },
   {
     title: "Natours",
     description: "A tour booking application using the MERN stack. With user auth & maps API for geolocation services.",
     tags: ["Node.js", "MongoDB", "Express", "React"],
     imageUrl: planeImg,
+    refUrl: "https://github.com/gokulprathin8/MERN_Natours_API",
   },
   {
     title: "Codenames",
     description: "Challenges players to guess words based on clues, enhancing strategic thinking and teamwork.",
     tags: ["FastAPI", "Remix", "Tailwind", "Zustand"],
     imageUrl: codenamesImg,
+    refUrl: "https://github.com/gokulprathin8/codenames",
   }
 ] as const;
 
