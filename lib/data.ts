@@ -3,6 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import geoweaverImg from "@/public/geoweaver.png";
+import planeImg from "@/public/plane.png";
+import codenamesImg from "@/public/codenames.jpg";
 
 export const links = [
   {
@@ -76,10 +78,22 @@ export const projectsData = [
   {
     title: "Geoweaver",
     description:
-      "A web system to allow users to automatically record history and manage complicated scientific workflows in web browsers",
+    "A web system to allow users to automatically record history and manage complicated scientific workflows in web browsers",
     tags: ["Java", "Spring", "PostgreSQL", "H2", "Tailwind"],
     imageUrl: geoweaverImg,
   },
+  {
+    title: "Natours",
+    description: "A tour booking application using the MERN stack. With user auth & maps API for geolocation services.",
+    tags: ["Node.js", "MongoDB", "Express", "React"],
+    imageUrl: planeImg,
+  },
+  {
+    title: "Codenames",
+    description: "Challenges players to guess words based on clues, enhancing strategic thinking and teamwork.",
+    tags: ["FastAPI", "Remix", "Tailwind", "Zustand"],
+    imageUrl: codenamesImg,
+  }
 ] as const;
 
 export const skillsData = [
