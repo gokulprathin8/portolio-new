@@ -74,7 +74,7 @@ export const experiencesData = [
   },
   {
     title: "Full Stack Software Engineer",
-    location: "Agrograph",
+    location: "Agrograph - (Remote)",
     description: "I designed and deployed a scalable Google Cloud Platform infrastructure using Kubernetes Engine to support high‑performance geospatial data processing, established GitHub Actions–based CI/CD pipelines for automated builds, tests, and deployments, and collaborated across the full software development lifecycle—building customer‑facing React/Next.js front ends and Python back ends to ensure reliability and scalability—while also integrating and optimizing a Tegola vector‑tile server with PostGIS for efficient parcel, tillage, and cover‑crop map visualizations.",
     icon: React.createElement(CgWorkAlt),
     date: "Sept 2024 - April 2025"
