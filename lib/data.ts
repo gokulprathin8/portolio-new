@@ -51,7 +51,7 @@ export const experiencesData = [
     date: "2018 - 2021",
   },
   {
-    title: "Heymavin (fka Userfocus)",
+    title: "Hey marvin (fka Userfocus)",
     location: "Remote",
     description:
       "Worked as a Full-stack Developer — Django, Flask, AWS, Elastic Search, Postgres, Heroku & React. Worked on Zoom integratio into the existing codebase and completely built a end to end pipeline to record and analyse calls that occur outside zoom such as MS Teams & Google Meet and automated the recording process with Selenium, FFmpeg & Chrome headless",
