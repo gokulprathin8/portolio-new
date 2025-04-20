@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        A full-stack developer, currently pursuing my Master’s degree at George Mason University, Fairfax Campus, VA, with a tech background in software engineering. I am enthusiastic about developing scalable software solutions and exploring the latest in technology trends. 🚀
+        Results-driven Full Stack Software Engineer with 4+ years of hands‑on experience designing and delivering scalable, cloud‑native applications. Proficient in Python, React/Next.js, Tailwind CSS and container orchestration on AWS and GCP. Proven expertise in architecting robust system designs, automating end‑to‑end CI/CD pipelines and driving performance improvements through agile practices. Passionate about leveraging emerging technologies to solve complex challenges and deliver high‑impact user experiences. 🚀
       </p>
     </motion.section>
   );
