@@ -65,7 +65,7 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Gokul Prathin, </span>{" "}
         <span className="font-bold">Full-stack developer & Machine Learning enthusiast</span> with{" "}
         <span className="font-bold">4+ years</span> of experience. I love{" "}
-        <span className="underline">building fast, scalable backends</span>.
+        <span className="underline">building fast, scalable applications and services</span>.
       </motion.h1>
 
       <motion.div
