@@ -31,6 +31,10 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
+  {
+    name: "Blog",
+    hash: "https://gokulprathin8.github.io/gokuls-blog/blog/",
+  }
 ] as const;
 
 export const experiencesData = [
