@@ -85,7 +85,7 @@ export const experiencesData = [
   },
   {
     title: "Software Engineer",
-    location: "Seattle, WA (On-Site)",
+    location: "Amazon - Seattle, WA (On-Site)",
     description: "Joined AWS as a software engineer in the IoT Team.",
     icon: React.createElement(CgWorkAlt),
     date: "Sept 2025 - Till Date"
